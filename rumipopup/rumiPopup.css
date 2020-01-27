@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 팝업레이어 스타일 시작 */
+#rumipopup_sub { position: fixed; overflow:scroll; width:100%; height:100%; top:0px; left:0px; display:none; border: 0px; z-index : 9998; }
+#rumipopup { position: fixed; left: 50%; top: 50%; overflow: hidden; border: 0px; background-color: #fff; padding:0px; border-radius:5px;  box-sizing: border-box; box-shadow : rgba(0,0,0,0.7) 0 0 0 9999px; z-index : 9999; }
+#rumipopup .rumiTitle { background:#ededed; width:100%; height:40px; border-bottom:1px solid #cccccc; line-height:40px; font-size:14px; font-weight:bold; padding:0 15px; color:#dd6666}
+#rumipopup .rumiClose { display:inline-block; padding:0px; font-size:25px; color:#999; position:absolute; top:5px; right:14px; font-weight:bold; cursor:pointer; }
+#rumipopup .rumiClose:hover { transition:all 0.5s; color:#dd6666; } 
+#rumipopup .rumiReload { display:inline-block; padding:0px; color:#999; position:absolute; bottom:9px; left:10px; font-weight:bold; cursor:pointer; }
+#rumipopup .rumiReload button { background:#555; }
+#rumipopup .noIframe { width:100%; height:100%; background:#fff; border:0px; display:none; overflow:auto; }
+#rumipopup .rumiIframe { height:100%; background:#fff; border:0px; padding:0px 0px 90px 20px; }
+#rumipopup .pop_inbox { width:100%; height:100%; padding:15px; background:#fff; overflow:auto; }
+#rumipopup .rumiButton { width:100%; height:50px; padding:10px 20px 0px 0px; position:absolute; bottom:0px; left:0px; text-align:right; font-size:12px; border-top:1px solid #ccc; background:#ededed; }
+#rumipopup button { padding:8px 12px; border:0px; border-radius:3px; color:#fff; background:#3059c7; margin-left:3px; outline:none; }
+#rumipopup button:hover { background:#dd6666; } 
+#rumipopup .fa-folder-open { font-size:17px; vertical-align:middle}
+/* 팝업 레이어 스타일 끝 */
+
+
